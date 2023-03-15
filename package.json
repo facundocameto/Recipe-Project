@@ -1,7 +1,6 @@
 {
   "name": "recipe-project",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,14 @@
   "bugs": {
     "url": "https://github.com/facundocameto/Recipe-Project/issues"
   },
-  "homepage": "https://github.com/facundocameto/Recipe-Project#readme"
+  "homepage": "https://github.com/facundocameto/Recipe-Project#readme",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.21"
+  }
 }
